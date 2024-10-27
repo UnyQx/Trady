@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'quick';
+  src: url(./assets/fonts/Quicksand-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'lemonM';
+  src: url(./assets/fonts/LEMONMILK-Bold.otf);
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: var(--white);
+  font-family: 'quick';
+}
+
+
+:root {
+  
+  --padding-1: 5px;
+  --padding-2: 10px;
+
+  --headerSize: 50px;
+  --navSize: 50px;
+
+  --red: #ad1d0a;
+  --bg: #081014;
+  --white: #d1cbbc;
+  --dark: #092830;
+  --light: #013c49;
+  --main: #b3cf12;
+
+
+}
+
+
+
+
+body {
+  background-color: var(--bg);
+  position: relative;
+  display: flex;
+  /* justify-content: center; */
+}
